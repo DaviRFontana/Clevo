@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clevo - Modern web application">
+    <link rel="stylesheet" href="../src/styles/style.css">
+    <title>Clevo</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-container">
+            <a href="index.html" class="global-logo" aria-label="Clevo Home">
+                <div class="logo-flexible"></div>
+            </a>
+        </div>
+        <div class="main-header-container">
+            <div class="main-header-links">
+                <a href="index.html">Home</a>
+                <a href="about.html" aria-current="page">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="main-header-container">
+            <div class="main-labels-pc">
+                <label for="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <input type="checkbox" id="theme-toggle" name="darkmode" class="theme-toggle-input" checked>
+                    <div class="toggle-icons"></div>
+                </label>
+                <label for="language-toggle" class="language-toggle" aria-label="Toggle language mode">
+                    <div class="selected-language"></div>
+                    <input type="checkbox" name="language" class="language-toggle-input" value="en-us">
+                    <div class="dropdown-icon"></div>
+                </label>
+            </div>
+            <div class="main-labels-mobile">
+                <nav class="main-header-hmenu" aria-label="Mobile navigation">
+                    <div class="hmenu-bars">
+                        <input type="checkbox" name="hmenu" class="hmenu-toggle-input" aria-label="Toggle mobile menu">
+                    </div>
+                    <div class="hmenu-bars">
+                        <input type="checkbox" id="hmenu-toggle" name="hmenu" class="hmenu-toggle-input" aria-label="Toggle mobile menu">
+                    </div>
+                    <div class="hmenu-bars">
+                        <input type="checkbox" name="hmenu" class="hmenu-toggle-input" aria-label="Toggle mobile menu">
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="main-language-menu">
+        <div class="language-menu-options">
+            <input type="radio" name="language" value="es-es" class="language-menu-input" id="es-es">
+            <div class="language-menu-flag"></div>
+            <span class="language-menu-ln" id="es-es-span">Espanõl</span>
+        </div>
+        <div class="language-menu-options">
+            <input type="radio" name="language" value="pt-br" class="language-menu-input" id="pt-br">
+            <div class="language-menu-flag"></div>
+            <span class="language-menu-ln" id="pt-br-span">Português</span>
+        </div>
+    </div>
+    <main class="main-content">
+        <div class="main-content-container"></div>
+        <div class="main-content-container"></div>
+        <div class="main-content-container"></div>
+    </main>
+
+    <script src="../src/scripts/script.js"></script>
+</body>
+</html>
