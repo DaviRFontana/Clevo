@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: 'Raleway';
-    src: url('../assets/Raleway-VariableFont_wght.ttf') format('truetype');
+    src: url('Raleway-VariableFont_wght.ttf') format('truetype');
     font-weight: 100 900;
     font-style: normal;
 }
@@ -205,7 +205,7 @@ a {
 .logo-flexible {
     width: 120px;
     height: 60px;
-    background-image: url(../assets/logo_white.png);
+    background-image: url(logo_white.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -237,7 +237,7 @@ a {
     display: block;
     width: 30px;
     height: 30px;
-    background-image: url(../assets/sun.png);
+    background-image: url(sun.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -341,7 +341,7 @@ a {
     left: 51px;
     width: 11px;
     height: 11px;
-    background-image: url(../assets/dropdown-dark.png);
+    background-image: url(dropdown-dark.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -440,7 +440,7 @@ body.dark-theme .hmenu-bars {
 
 body:has(.theme-toggle-input:checked) .logo-flexible,
 body.dark-theme .logo-flexible {
-    background-image: url(../assets/f4.png);
+    background-image: url(f4.png);
 }
 
 body:has(.theme-toggle-input:checked) .main-header-links a[aria-current="page"],
@@ -452,11 +452,11 @@ body.dark-theme .main-header-links a[aria-current="page"] {
 body:has(.theme-toggle-input:checked) .toggle-icons,
 body.dark-theme .toggle-icons {
     transform: scale(0.625);
-    background-image: url(../assets/moon.png);
+    background-image: url(moon.png);
 }
 
 body:has(.theme-toggle-input:checked) .dropdown-icon {
-    background-image: url(../assets/dropdown-white.png);
+    background-image: url(dropdown-white.png);
 }
 
 body:has(.theme-toggle-input:checked) .language-menu-options,
