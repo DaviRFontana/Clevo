@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Clevo - Modern web application">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/styles/style.css">
+    <link rel="shortcut icon" href="../src/assets/dropdown-dark.png" type="image/x-icon">
     <title>Clevo</title>
 </head>
 <body>
@@ -49,6 +50,15 @@
             </div>
         </div>
     </header>
+    <div class="main-content-video-container" aria-hidden="true">
+        <iframe
+            src="https://www.youtube.com/embed/9vntypeV5QU?autoplay=1&mute=1&controls=0&loop=1&randing=1&rel=0&playsinline=1"
+            title="Background Video"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+    </div>
     <div class="main-language-menu">
         <div class="language-menu-options">
             <input type="radio" name="language" value="es-es" class="language-menu-input" id="es-es">
@@ -62,17 +72,23 @@
         </div>
     </div>
     <main class="main-content">
+        <div class="main-content-video-container"></div>
         <div class="main-content-container"></div>
         <div class="main-content-container">
             <div class="main-content-subcontainer">
-                <span class="main-content-title">Unique solutions for special dreams</span>
-                <span class="main-content-subtitle">We are always ready to transform your dream into reality.</span>
+                <span class="main-content-title">Unique solutions for <span id="main-content-title-highlight">special</span> dreams.</span>
+                <span class="main-content-title-description">We are a team of experts who are dedicated to providing the best possible solutions for our clients.</span>
             </div>
-            <div class="main-content-subcontainer"></div>
+            <div class="main-content-topic-below">
+                <a href="#n2"><div class="main-content-topic-below-icon"></div></a>
+            </div>
+            </div>
         </div>
         <div class="main-content-container"></div>
     </main>
-
+    <main id="n2" class="main-content-n2">
+        <img id="yes" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWM73rdcz2HGkiIQFJeHkhtf_4lnaDklJvkg&s">
+    </main>
     <script src="../src/scripts/script.js"></script>
 </body>
 </html>
